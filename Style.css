@@ -26,21 +26,21 @@ html{
     height: 100%;
 }
 .alu2{
-    background-image: url("bansa.png");
+    background-image: url("bansa.jpg");
     background-size: cover;
     background-position: center;
     height: 100%;
 }
 
 .alu3{
-    background-image: url("bundok.png");
+    background-image: url("bundok.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 100%;
 }
 .alu4{
-    background-image: url("ulap.png");
+    background-image: url("ulap.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
