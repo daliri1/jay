@@ -1,0 +1,228 @@
+@font-face{
+	font-family:"Odachi";
+	src: url("Odachi 400.otf");
+}
+@font-face{
+	font-family:"NoirRegular";
+	src: url("NoirStd-Regular.ttf");
+}
+@font-face{
+	font-family:"NoirBold";
+	src: url("NoirPro-Bold.ttf");
+}
+
+html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.alu1{
+    background-image: url("talon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-color: white;
+    height: 100%;
+}
+.alu2{
+    background-image: url("bansa.png");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.alu3{
+    background-image: url("bundok.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+.alu4{
+    background-image: url("ulap.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+img{
+	width:50px;
+	background-position:center;
+	background-size: cover:
+
+}
+.box1.icon{ 
+	line-height:30px;
+	background: #015668;
+	 background-size:cover;
+}
+.box1.icon{ 
+	line-height:30px;
+	background: #015668;
+	 background-size:cover;
+}
+.box2.icon{ 
+	line-height:30px;
+	background: #015668;
+	 background-size:cover;
+}
+.box3.icon{ 
+	line-height:30px;
+	background: #015668;
+	 background-size:cover;
+}
+li, a{
+    font-weight: 500;
+    font-size:  20px;
+    color: white;
+    text-decoration: none;
+    font-family: "Noir";
+    src: url("Regular 800.otf");
+   
+}
+header{
+    background-color: #015668;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px 5%;
+}
+.logo{
+    margin-right: auto;
+    cursor: pointer;
+    font-family: "Odachi";
+    font-size: 30px;
+}
+.nana{
+    list-style: none;
+}
+.nana li{
+    display: inline-block;
+    padding: 0px 50px;
+}
+.nana li a:hover {
+    color: black;
+}
+.nana li a{
+    transition:  all 0.3s ease 0s;
+}
+.simula1{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.sulat1{
+    text-decoration: none;
+    font-family: "Noir";
+    src: url("Medium 500.otf");
+    padding: 50px;
+    text-shadow: 2px 2px black;
+}
+.sulat2{
+    font-family: "Noir";
+    text-shadow: 2px 2px black;
+}
+.hanabi{
+    width: auto;
+    padding: 10px 18px;
+    background-color:  #015668;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
+button:hover{
+    background-color: black;
+}
+
+.simula2{
+    text-align: left;
+    font-size: 30px;
+    padding: 200px 4%;
+    margin: auto;
+    color: #ffd369;
+}
+.sulat3{
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+    text-decoration: underline;
+}
+.sulat4{
+    text-shadow: 2px 2px black;
+}
+.box{
+    width: 300px;
+    text-align: center;
+    background: rgba(2, 54, 133, 0.411);
+    padding: 20px;
+    margin: 8% auto 0;
+    font-size: 16px;
+    color: #ffd369;;
+}
+input[type=text]{
+    width: 80%;
+    padding: 5px 5%;
+    display: inline-block;
+    border: 1px solid #cccccc;
+}
+.simula3{
+    text-align: center;
+    background-image: url("ulap.jpg");
+    background-size: cover;
+    padding: 10px;
+    
+    font-family: "Noir";
+    src: url("Medium 500.otf");
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+.sulat5{
+    text-shadow: 1px 1px black;
+}
+.sulat6{
+    text-shadow:2px 2px black;
+}
+.kahon1{
+    width: 300px;
+    text-align: justify;
+    background: rgba(52, 15, 185, 0.1);
+    box-shadow: 5px 10px;
+    padding: 20px;
+    margin: 1% auto 0;
+    font-size: 16px;
+    color: black;
+    left: 5%;
+    position: absolute;
+}
+.bukas1{
+    text-align: center;
+}
+.kahon2{
+    width: 300px;
+    text-align: justify;
+    background: rgba(52, 15, 185, 0.1);
+    box-shadow: 5px 10px;
+    padding: 20px;
+    margin: 1% auto 0;
+    font-size: 16px;
+    color: black;
+    left: 40%;
+    position: absolute;
+}
+.kahon3{
+    width: 300px;
+    text-align: justify;
+    background: rgba(52, 15, 185, 0.1);
+    box-shadow: 5px 10px;
+    padding: 20px;
+    margin: 1% auto 0;
+    font-size: 16px;
+    color: black;
+    right: 5%;
+    position: absolute;
+}
+.but{
+    font-size: 18px;
+    text-shadow: 1px 1px black;
+}
